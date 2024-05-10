@@ -109,12 +109,12 @@ body {
   font-weight: bold;
   border-radius: 10%;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  background-color: #73726a;; /* Semi-transparent black background */
   color: white; /* Text color */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none; /* Remove border */
   border-radius: 5px; /* Add border-radius for rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
+  box-shadow: 0 2px 4px rgb(25 4 4 / 92%); /* Shadow effect */
   cursor: pointer; /* Cursor style */
   transition: background-color 0.3s, box-shadow 0.3s;
 }
