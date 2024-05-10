@@ -294,12 +294,12 @@ footer{
     }
 
     #sec1 {
-        margin-top: 40%;
+         margin-top: 60%;
     }
 
     #image1 {
         position: absolute;
-        top: 20%;
+         top: -25%;;
         left: 0%;
         width: 100%;
         height: auto;
@@ -326,4 +326,19 @@ footer{
         font-size: 30px;
         font-weight: bold;
     }
+    
+.section {
+    position: relative;
+    padding: 0px;
+    margin-top: 0%;
+    color: #fff;
+    text-align: center;  
+    margin-left: 5%;
+    margin-right: 5%;
+    width:800px
+  }
+    
+#image2{
+    margin-left:35%;
+  }
 }
