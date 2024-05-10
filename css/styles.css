@@ -1,0 +1,321 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 0;
+    background-image: url('/image/flat-geometric-background_79603-1644.png');   
+  }
+  #line1{
+    box-sizing: block; color: gainsboro; font-size: 3vw;
+  }
+  #line2{
+    display: block; color:yellowgreen; font-size: 2vw; margin-top: 2%;
+  }
+ 
+  header {
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size:2.5vw; 
+    min-height: 50px; /* Minimum height for the container */
+   /* line-height: 1.2;  Adjust line height for better spacing */
+    text-align: center; /* Center align the text */
+   /* white-space: normal; Allow wrapping */
+    box-sizing: border-box;
+  }
+   
+  /* Styling for the section */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section {
+  position: relative;
+  padding: 10px;
+  margin-top: 0%;
+  color: #fff;
+  text-align: center;  
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#image1{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 80%;
+   /* Set width to fill container */
+  height: auto; /* Maintain aspect ratio */
+}
+#image2{
+  margin-left:5%
+}
+/* Responsive grid layout */
+.grid-container {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Styling for grid items */
+.grid-item {
+  padding: 0px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container2 {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 10px;
+}
+.grid-item2 {
+  text-align: left;
+  font-size: larger;
+  padding: 20px;
+  width: 400px;
+  height: 60px; /* Adjust the height of rectangles */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#btn1{
+  background-color: 	#FFEA00;
+  width: 20vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-top: 2%;
+  border-radius: 2%;
+  height: 50px;
+}
+#btn2{
+  background-color: 	#FFEA00;
+  width: 60%;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 10%;
+  height: 90%;
+}
+
+.btncss{
+  width: 300px;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 10%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 30px; /* Adjust the second value to increase/decrease the space between rows */
+}
+th, td {
+  
+  padding: 8px;
+}
+#sec1{
+  margin-top: 35%;
+}
+#line3{
+  font-size: 2vw; font-weight: bold;   
+}
+
+#line4{
+  font-size: 3vw; font-weight: bold;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  height: 13%;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile screens */
+  body {
+    font-family: Arial, sans-serif;
+    margin-left: 0%;
+    margin-right: 0px;
+    margin-top: 5%;
+    padding: 0;
+    background-image: url('/image/flat-geometric-background_79603-1644.png');     
+  }
+ 
+  .grid-container2 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+  }
+  .grid-item2 {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: larger;
+    padding: 20px;
+    width: 300px;
+    height: 80px; /* Adjust the height of rectangles */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+
+  
+  header {
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size:80%; 
+    min-height: 50px; /* Minimum height for the container */
+   /* line-height: 1.2;  Adjust line height for better spacing */
+    text-align: center; /* Center align the text */
+   /* white-space: normal; Allow wrapping */
+    box-sizing: border-box;
+  }
+
+  #line1{
+    box-sizing: border-box; color: gainsboro; font-size: 25px;
+  }
+  #line2{
+    display: block; color:yellowgreen; font-size: 18px; margin-top: 2%;
+  }
+  #line3{
+    font-size: 20px; font-weight: bold;   
+  }
+  #sec1{
+    margin-top: 65%;
+  }
+  #image1{
+    position: absolute; top: 50%; left: 0%;
+    width: 100%;
+     /* Set width to fill container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  #btn1{
+    background-color: 	#FFEA00;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 2%;
+    border-radius: 2%;
+    height: 40px;
+  }
+  .grid-item {
+    justify-content: center;
+    padding: 0px;
+    width:90%;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  #line4{
+      font-size: 25px; font-weight: bold;
+  }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin-left: 0%;
+    margin-right: 0px;
+    margin-top: 5%;
+    padding: 0;
+    background-image: url('/image/flat-geometric-background_79603-1644.png');     
+  }
+ 
+  .grid-container2 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+  }
+  .grid-item2 {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: larger;
+    padding: 20px;
+    width: 300px;
+    height: 80px; /* Adjust the height of rectangles */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+
+  
+  header {
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size:80%; 
+    min-height: 50px; /* Minimum height for the container */
+   /* line-height: 1.2;  Adjust line height for better spacing */
+    text-align: center; /* Center align the text */
+   /* white-space: normal; Allow wrapping */
+    box-sizing: border-box;
+  }
+
+  #line1{
+    box-sizing: border-box; color: gainsboro; font-size: 25px;
+  }
+  #line2{
+    display: block; color:yellowgreen; font-size: 18px; margin-top: 2%;
+  }
+  #line3{
+    font-size: 20px; font-weight: bold;   
+  }
+  #sec1{
+    margin-top: 65%;
+  }
+  #image1{
+    position: absolute; top: 50%; left: 0%;
+    width: 100%;
+     /* Set width to fill container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  #btn1{
+    background-color: 	#FFEA00;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 2%;
+    border-radius: 2%;
+    height: 40px;
+  }
+  .grid-item {
+    justify-content: center;
+    padding: 0px;
+    width:90%;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  #line4{
+      font-size: 25px; font-weight: bold;
+  }
+  
+}
